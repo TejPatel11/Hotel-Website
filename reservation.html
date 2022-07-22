@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Registration Form</title>
+    <script src="Javascript.js"></script>
+    <link rel="stylesheet" href="hotel.css">
+<meta charset="utf-8">
+     <p id="demo"></p>
+
+  
+</head>
+<body>
+     <nav>
+    <ol>
+    <li><a href="Royal Palace.html">Home</a> &nbsp;</li>
+    <li><a href="activites.html">Activites &amp; Services</a> &nbsp; </li>
+    <li><a href="menu.html">Menu</a> &nbsp; </li> 
+    <li><a href="price.html">Price</a>&nbsp;</li>
+    <li><a href="reservation.html">Reservation</a> &nbsp; </li> 
+    <li><a href="contact.html">Contact Us</a> &nbsp;</li>
+    
+    </ol>
+    </nav>
+  <header>
+    <h1>Royal Palace Hotel Reservations</h1>
+  </header>
+  <div id="reserve">
+  <main>
+    <h2>Royal Palace Hotel</h2>
+    
+     <form action="afterreservation.html"  onsubmit="return validateForm()" method="post" enctype="multipart/form-data" name="mailingList" id="mailingList">
+        <label for="fname" id="fnameLabel" required>First Name: </label>
+        <input type="text" name="fname" id="fname">
+        <label for="lname" id="lnameLabel" required>Last Name: </label>
+        <input type="text" name="lname" id="lname">
+        <label for="email" id="emailLabel" required>Email: </label>
+        <input type="email" name="email" id="email" size="5" maxlength="40" placeholder="Type Your Email Address" tabindex="1">
+        <label for="phone" id="phoneNumber">Phone: </label>
+        <input type="tel" name="phone" id="phone" maxlength="15">
+        <label for="checkin" id="checkinDate">Check-In Date: </label>
+        <input type="date" id="checkin" name="checkin"> 
+        <label for="checkout" id="checkoutDate">Check-Out Date: </label>
+        <input type="date" id="checkout" name="checkout"> 
+        <label for="myComments">Comments: </label><textarea id="myComments" name="myComments" rows="2" cols="20"></textarea> <br>
+        <input type="submit" id="mySubmit" value="Submit">
+        <input type="reset" id="myReset" value="Reset Data"><br>
+        
+         <br>
+         <br>
+         <br>
+    </form>
+      </main>
+    </div>
+    
+</body>
+     <footer id="footeer">
+Copyright &copy; 2021 Royal Palace Hotel<br>
+<a href="mailto:reservationroyalpalace@gmail.com">reservationroyalpalace@gmail.com</a>
+  </footer>
+</html>
+
+
+<!--DO XML READING FROM FILE AND ADD IMAGES AND STYLING AND ADD BUTTON IN FOOTER TO CHANGE THE BGCOLOR-->
+

@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>  
+<html lang="en">
+<head>
+    <title>PHP Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="hotel.css">
+</head>
+<body> 
+      <nav>
+    <ol>
+    <li><a href="Royal Palace.html">Home</a> &nbsp;</li>
+    <li><a href="activites.html">Activites &amp; Services</a> &nbsp; </li>
+    <li><a href="menu.html">Menu</a> &nbsp; </li> 
+    <li><a href="price.html">Price</a>&nbsp;</li>
+    <li><a href="reservation.html">Reservation</a> &nbsp; </li> 
+    <li><a href="contact.html">Contact Us</a> &nbsp;</li>
+    </ol>
+    </nav>
+  <header>
+    <h1>Royal Palace Hotel Reservations</h1>
+  </header>
+  <div id="contact">
+  <main>
+    <h2>Royal Palace Hotel</h2>
+    
+        
+    <form name="validateForm" id="validateForm" enctype="multipart/form-data" action="Submitted.php" onsubmit="return submissionForm()" method="post">
+             <label for="select">I want to know more about:</label>
+              <select id="selectOption" name="selectOption" placeholder="Select from list">
+                <option value="">Select from list</option>
+                <option value="1 is Dinning menu">Dinning menu</option>
+                <option value="2 is Activites">Activites</option>
+                <option value="3 is Services">Services</option>
+                <option value="4 is Check-in and check-out timing">Check-in and check-out timing</option>
+                <option value="5 is General questions">General questions</option>
+              </select>
+            <label for="name" id="nameLabel" required>Name: </label>
+            <input type="text" name="name" id="name" placeholder="Type your name">
+            <label for="email" id="emailLabel" required>Email: </label>
+            <input type="email" name="email" id="email" size="5" maxlength="40" placeholder="Type Your Email Address">
+            <label for="phone">Phone: </label>
+            <input type="tel" name="phone" id="phone" maxlength="15" placeholder="Enter your Phone number">
+            <label for="myComments">Comments: </label>
+            
+            <textarea id="myComments" name="myComments" rows="2" cols="20"></textarea>
+            <input type="submit" id="mySubmit" value="Submit">
+        
+        
+    </form>
+    </main>
+    </div>
+    </body>
+     <footer id="cont">
+        Copyright &copy; 2021 Royal Palace Hotel<br>
+        <a href="mailto:contactusroyal@gmail.com">contactusroyal@gmail.com</a>
+  </footer>
+    </html>

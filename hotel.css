@@ -1,0 +1,326 @@
+* {
+  box-sizing: border-box;
+}
+.web{
+    text-align: center;
+    background-image: linear-gradient(darkgoldenrod,white);
+    color: white;
+    text-shadow: 2px 2px blue;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px blue;
+    border: 1px solid red;
+    /*background-color: coral;*/
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}p
+.food:hover{
+                background-color: orangered;
+                color: burlywood;
+            }
+p{
+    color: black;
+}
+.people{
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+hr{
+    border-bottom: 8px solid chartreuse;
+   
+}
+
+nav
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0px;
+    float: left;
+    width: 160px;
+    border-style: outset;
+    
+}
+nav a
+{
+     display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:link
+{
+    color: #5C7FA3;
+}
+
+nav a:visited
+{
+    color: black;
+}
+
+nav a:hover
+{
+    color: #A52A2A;
+}
+
+nav ul
+{
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 1em;
+}
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1160px;
+    background-color: red;
+    overflow-x: hidden;
+    padding-right:10px;
+    padding-left:10px;
+    box-shadow: 13px 13px 20px #777777;
+
+}
+ol{
+    list-style-type: none;
+    background-image: linear-gradient(to bottom, goldenrod, white);
+    border-right: red;
+    margin:0px;
+    padding:0px;
+}
+li a{
+    color: antiquewhite;
+}
+main
+{
+   
+    margin-left: 170px;
+    background-color: white;
+    padding-left: 2em;
+    padding-right 2em;
+}
+#service{
+     background-image: linear-gradient(to bottom, blue, white);
+}
+
+.golf{
+    background-image: url(Images/paper.jfif);
+    font-weight: bolder;
+    color: #ff8000;
+}
+.pool{
+    color: orange;
+    font-size: 1.3em;
+    font-family: Times New Roman, Times, serif;
+}
+.fun{
+    text-align: center;
+    text-shadow: 2px 2px red;
+    background-color: snow
+}
+.ride{
+    color: darkorange;
+    padding-top: 1em;
+}
+.note{
+    font-weight: bold;
+    
+}
+.column {
+  float: none;
+  width: 43%;
+  padding: 5px;
+  margin: 4px;
+  border: 1px solid red;
+}
+
+.bar{
+    color: red;
+     background-image: linear-gradient(to bottom, blanchedalmond, white);
+    
+}
+#menu{
+    background-color: aquamarine;
+     margin-right: auto; 
+    margin-left: auto; 
+    max-width:1460px; 
+    padding-right: 10px; 
+    padding-left: 10px;
+}
+.food{
+    color: red;
+}
+.Italian_cuisine{
+    color:whitesmoke;
+    text-align: center;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 5px;
+}
+.Indian_cuisine{
+    color:whitesmoke;
+    text-align: center;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 5px;
+}
+.American_cuisine{
+    color:whitesmoke;
+    text-align: center;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.Mexican_cuisine{
+    color:whitesmoke;
+    text-align: center;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.Thai_cuisine{
+    color:whitesmoke;
+    text-align: center;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.Chinese_cuisine{
+    color:whitesmoke;
+    text-align: center;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 5px;
+}
+
+dd{
+    color: gray;
+}
+
+#foor{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    text-align: center;
+    border:1px solid grey;
+    position: fixed;
+    background-color: whitesmoke;
+    color:blue;
+    bottom: 0;
+    width:100%;
+}
+#foo{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    text-align: center;
+    border:1px solid grey;
+    position: fixed;
+    background-color: whitesmoke;
+    color:blue;
+    bottom: 0;
+    width:100%;
+}
+#foot{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    text-align: center;
+    border:1px solid grey;
+    position: fixed;
+    background-color: whitesmoke;
+    color:blue;
+    bottom: 0;
+    width:100%;
+}
+#footeer{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    text-align: center;
+    border:1px solid grey;
+    position: fixed;
+    background-color: whitesmoke;
+    color:blue;
+    bottom: 0;
+    width:100%;
+}
+#cont{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    text-align: center;
+    border:1px solid grey;
+    position: fixed;
+    background-color: whitesmoke;
+    color:blue;
+    bottom: 0;
+    width:100%;
+}
+form
+            {
+                display: grid;
+                grid-template-rows: auto;
+                grid-template-columns: 8em 1fr;
+                grid-gap: 1em;
+                background-color: #EAEAEA;
+                min-width: 35em;
+                width: 50%;
+                padding: 2em;
+                border: 1px solid teal;
+            }
+            
+            input[type="submit"]
+            {
+                grid-column: 2/3;
+            }
+            input[type="reset"]
+            {
+                grid-column: 2/3;
+            }
+.after{
+    background-color: indianred;
+    
+}
+.after:hover{
+    background-color: orangered;
+    color: skyblue;
+}
+#submitted{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+    background-image: repeating-linear-gradient(to bottom, darkgoldenrod, white);
+    box-shadow: 13px 13px 20px #777777;
+}
+
+#price{
+   
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 2048px;
+    background-image: repeating-linear-gradient(to bottom, cornflowerblue, white);
+    padding-right:10px;
+    padding-left:10px;
+}
+.prices{
+    background-image: repeating-linear-gradient(to bottom, chartreuse , white);
+  float: none;
+  width: 83%;
+  padding: 30px;
+  margin: 10px;
+  border: 1px solid red;
+}
+  
+#demo{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 2048px;
+    padding-right: 10px;
+    padding-left: 10px;
+}

@@ -1,0 +1,27 @@
+<famous>
+    <people>
+        <name>Bela</name>
+        <age>30</age>
+        <job>Fashion designer</job>
+    </people>
+    <people>
+        <name>Bob</name>
+        <age>45</age>
+        <job>Actor</job>
+    </people>
+    <people>
+        <name>Jane</name>
+        <age>25</age>
+        <job>Actress</job>
+    </people>
+    <people>
+        <name>Karl</name>
+        <age>47</age>
+        <job>Politican</job>
+    </people>
+    <people>
+        <name>Jack</name>
+        <age>28</age>
+        <job>Television Anchor</job>
+    </people>
+</famous>
